@@ -70,7 +70,7 @@ survival_table[ survival_table >= 0.5 ] = 1
 # Now I have my indicator I can read in the test file and write out
 # if a women then survived(1) if a man then did not survived (0)
 # First read in test
-test_file = open('test.csv', 'rb')
+test_file = open('titanic_test.csv', 'rb')
 test_file_object = csv.reader(test_file)
 header = test_file_object.next()
 

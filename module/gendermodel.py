@@ -53,8 +53,8 @@ print 'Proportion of men who survived is %s' % proportion_men_survived
 # if female, then model that she survived (1) 
 # if male, then model that he did not survive (0)
 
-# First, read in test.csv
-test_file = open('test.csv', 'rb')
+# First, read in titanic_test.csv
+test_file = open('titanic_test.csv', 'rb')
 test_file_object = csv.reader(test_file)
 header = test_file_object.next()
 
